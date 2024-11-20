@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Info</title>
+  <style>
+    .main-heading {
+      margin-bottom: 0px;
+      color: rgb(140, 199, 88);
+      text-align: center;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-weight: bold;
+      font-size: 45px;
+    }
+    .sub-heading {
+      margin-top: 0.5px;
+      background-color: rgb(140, 199, 88);
+      color: black;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      text-align: center;
+      font-size: 30px;
+      margin-bottom: 1px;
+    }
+    .def {
+      color: rgb(0, 0, 0);
+      font-size: 15px;
+      width: 550px;
+      margin-top: 2px;
+      display: inline-block;
+      margin-bottom: 0.5px;
+    }
+    .def-h1, .def-h2 {
+      font-weight: bold;
+      font-size: 25px;
+      color: rgb(140, 199, 88);
+      margin-bottom: 1px;
+    }
+    .def-2 {
+      margin-top: 0.5px;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    div {
+      display: inline-block;
+    }
+    .def-img {
+      float: right;
+      vertical-align: bottom;
+      object-position: top;
+      width: 100%;
+      margin-top: 0px;
+    }
+    .box-model {
+      margin-top: 0px;
+      margin-bottom: 0px;
+    }
+    .deff {
+      margin-top: 1px;
+      margin-bottom: 0.4px;
+    }
+    .selector-1 {
+      margin-top: 0.5px;
+    }
+    .short-def {
+      font-family: bold;
+      font-size: 17px;
+      font-family: Arial;
+    }
+    .highlt, .highlt2 {
+      background-color: rgb(140, 199, 88);
+      opacity: 0.9;
+    }
+  </style>
+</head>
+<body>
+  <h1 class="main-heading">CSS</h1>
+</br>
+<h5 class="sub-heading">Cascading Style Sheets</h5>
+</br>
+<p class="def">CSS (Cascading Style Sheets) is a language used to describe the presentation and design of HTML documents. It allows developers to control the layout, colors, fonts, and overall appearance of a webpage.</p>
+</br>
+<div class="details">
+  <!--Heading 1-->
+<p class="def-h1">1. Basic Syntax</p>
+<p class="def-2">
+  A CSS rule is made up of a selector and a declaration block.</p>
+  <p class="basic-syn1">&#8226; Selector: Targets the HTML elements (e.g., p for tags).</p>
+  <p class="basic-syn2">&#8226; Property: The design feature (e.g., color).</p>
+  <p class="basic-syn3">&#8226; Value: The property’s specification (e.g., blue).</p>
+  <!--Heading 2-->
+  <p class="def-h2">2. Selectors</p>
+  <p class="selector-1">&#8226; <strong>Universal Selector:</strong> <u>* (selects all elements).</u></p>
+  <p class="selector-2">&#8226; <strong>Type Selector:</strong> <u>Targets a specific tag (e.g., h1, p).</u></p>
+  <p class="selector-3">&#8226; <strong>Class Selector:</strong> <u>.className (e.g., .button).</u></p>
+  <p class="selector-4">&#8226; <strong>ID Selector:</strong> <u>#idName (e.g., #header).</u></p>
+  <p class="selector-5">&#8226; <strong>Group Selector:</strong> <u>Combines selectors (e.g., h1, p).</u></p>
+  <p class="selector-6">&#8226; <strong>Descendant Selector:</strong> <u>parent child (e.g., div p).</u></p>
+  <!--Heading 3-->
+  <p class="def-h2">3. Box Model</p>
+  <p class="deff">CSS elements are structured like a box:</p>
+  <p>&#8226; <strong>Content:</strong> <u>The text or image inside.</u></p>
+  <p>&#8226; <strong>Padding:</strong> <u>Space between content and border.</u></p>
+  <p>&#8226; <strong>Border:</strong> <u>The edge of the element.</u></p>
+  <p>&#8226; <strong>Margin:</strong> <u>Space between elements.</u></p>
+</div>
+  <img class="def-img" src="css.jpg">
+<br>
+<p class="box-model">A box model is given below:</p>
+  <img src="boxmodel.png">
+  <hr>
+  <p class="def-h2">In Short & Detail:</p>
+  <p> <span class="short-def">Cascading Style Sheets (CSS) is a powerful <span class="highlt">styling language</span> used to define the <strong>visual presentation</strong> of HTML documents. It allows developers to separate content from design by controlling the layout, colors, fonts, and spacing of web pages. CSS follows a cascading priority system, meaning styles can be applied inline within HTML, embedded in a style tag, or linked externally via a `.css` file. This modular approach enables consistent styling across multiple pages while simplifying maintenance.<span class="highlt2">CSS operates on a box model, which defines the structure of each element using content, padding, borders, and margins.</span> With a wide range of properties and selectors, it supports fine-tuned customization for everything from typography to responsive layouts. Advanced features like media queries and CSS Grid or Flexbox enable the creation of modern, mobile-friendly designs, making CSS an essential tool in web development.</span></p>
+</body>
+</html>
